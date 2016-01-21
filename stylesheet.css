@@ -13,6 +13,10 @@ h1{
   ;
 }
 
+span{
+  float: right;
+}
+
 
 
 
@@ -92,6 +96,6 @@ h1{
   background-color:black;
 }
 
-img:hover{
-  display:none;
+#Lebenslauf{
+
 }

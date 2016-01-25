@@ -23,6 +23,18 @@ p.two{
   overflow:scroll;
 }
 
+p.three{
+  position: relative;
+  color: white;
+  font-size:20px;
+  text-align:right;
+}
+
+span.seventeenpx{
+  color: white;
+  font-size:17px;
+}
+
 
 span.date{
   font-size:28px;
@@ -39,17 +51,14 @@ span.smaller{
   font-style: italic;
 }
 
-p.three{
-  position: relative;
-  color: white;
-  font-size:20px;
-  text-align:right;
-}
+
+
+
 
 .eventinfo{
   position: relative;
   background-color: black;
-  opacity: 0.3;
+  opacity: 0.25;
   width:101.15%;
   height: 90px;
   border:1px dashed;

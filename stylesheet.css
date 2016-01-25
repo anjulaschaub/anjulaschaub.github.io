@@ -9,6 +9,65 @@ p{
   text-align: justify;
   line-height:1.5em;
   margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+}
+
+p.two{
+  font-size: 9pt;
+  font-family: gill sans;
+  text-align: center;
+  margin-left:0px;
+  line-height:1.5em;
+  color: black;
+  overflow:scroll;
+}
+
+
+span.date{
+  font-size:28px;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+
+span.smaller{
+  font-size:15px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+p.three{
+  position: relative;
+  color: white;
+  font-size:20px;
+  text-align:right;
+}
+
+.eventinfo{
+  position: relative;
+  background-color: black;
+  opacity: 0.3;
+  width:101.15%;
+  height: 90px;
+  border:1px dashed;
+}
+
+
+
+
+.filltextbox{
+  width:100%;
+  height:100%;
+  font-family: gill sans;
+  color: black;
+  font-weight:lighter;
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+  text-align: center;
 }
 
 h1{
@@ -19,9 +78,8 @@ h2{
   font-size:12pt;
 }
 
-span{
-  float: right;
-}
+
+
 
 
 .Block{
@@ -39,13 +97,33 @@ span{
 }
 
 
-.InlineElementHeight400{
+.InlineElementHeight360{
     display:inline-block;
     vertical-align:top;
     text-align:left;
     width:30%;
-    height:400px;
+    height:360px;
     border:1px #E6E6E6 dashed;
+}
+
+.Block240{
+  position: fixed;
+  width: 30%;
+  height:360px;
+  border:1px #E6E6E6 dashed;
+  overflow:hidden;
+}
+
+.Block120{
+  display: inline-block;
+  width:31.5%;
+  height:106px;
+  border:1px #E6E6E6 dashed;
+  overflow:hidden;
+}
+
+.Block30{
+
 }
 
 
@@ -67,20 +145,9 @@ span{
 }
 
 
-.filltextbox{
-  width:100%;
-  height:100%;
-  border-color: black;
-  border: 5px;
-  color: black;
-  font-style: oblique;
-  font-weight:lighter;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
 
-}
+
+
 
 .inline30percent{
   display:inline-block;
@@ -91,12 +158,21 @@ span{
   border:1px #F2F2F2 dashed;
 }
 
+.wholewidth{
+  display:inline-block;
+  vertical-align:top;
+  text-align:left;
+  width:94%;
+  height:30%;
+  border:1px #F2F2F2 dashed;
+}
+
 .inline60percent{
   display:inline-block;
   vertical-align:top;
   text-align:left;
-  width:62%;
-  height:60%;
+  width:60%;
+  height:30%;
   border:1px #F2F2F2 dashed;
 
 }
@@ -150,6 +226,7 @@ span{
 hr{
   color: #F2F2F2;
   margin-left:20px;
+  margin-right:20px;
 }
 
 .A:hover{

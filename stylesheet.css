@@ -13,6 +13,16 @@ p{
   margin-top:20px;
 }
 
+p.leben{
+  font-size: 7.5pt;
+  font-variant: small-caps;
+  text-align: justify;
+  line-height:1.5em;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:0px;
+}
+
 p.two{
   font-size: 9pt;
   font-family: gill sans;
@@ -146,6 +156,17 @@ h2{
     width:30%;
     height:360px;
     border:1px #E6E6E6 dashed;
+}
+
+
+.InlineElementHeight360leben{
+    display:inline-block;
+    vertical-align:top;
+    text-align:left;
+    width:30%;
+    height:360px;
+    border:1px #FFFFFF dashed;
+
 }
 
 .Block240{

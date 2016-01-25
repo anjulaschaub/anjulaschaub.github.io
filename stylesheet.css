@@ -30,6 +30,8 @@ p.three{
   text-align:right;
 }
 
+
+
 span.seventeenpx{
   color: white;
   font-size:17px;
@@ -51,8 +53,39 @@ span.smaller{
   font-style: italic;
 }
 
+td{
+  color:#D8D8D8;
+  vertical-align: top;
 
+}
 
+table{
+  border-spacing: 0px;
+  }
+
+.vertical{
+  border-right:1px #D8D8D8 solid;
+  text-align:right;
+  padding-right:5px;
+}
+.place{
+  font-size:10px;
+  color: #848484;
+  font-variant: small-caps;
+  padding-left:10px;
+
+}
+
+.stuff{
+  color:black;
+  font-size:10px;
+  font-variant: small-caps;
+
+}
+
+td{
+  height:70px;
+}
 
 
 .eventinfo{

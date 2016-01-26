@@ -23,6 +23,12 @@ p.leben{
   margin-top:0px;
 }
 
+p.info{
+  margin-top:5px;
+  margin-left:0px;
+  font-size:12px;
+}
+
 p.two{
   font-size: 9pt;
   font-family: gill sans;

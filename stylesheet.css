@@ -1,7 +1,16 @@
-h1{
-  font-size: 5em;
-  font-family: "adelle";
+@media screen and (min-width: 1000px) {
+    body {
+      background-color: orange;
+    }
 }
+
+
+.menuitem > h1{
+  font-size: 5em;
+  font-family: "english";
+  text-align: center;
+}
+
 
 .indexpage{
   margin: 5% auto;
@@ -22,6 +31,10 @@ h1{
   width: 33.3333333333333%;
   height: 100%;
 }
+
+
+
+
 
 .indexpage,
 .mainmenu,

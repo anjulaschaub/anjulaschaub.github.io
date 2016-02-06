@@ -48,18 +48,18 @@ img{
 }
 
 .menuitem{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30vw;
   height: 13vw;
+  overflow: hidden;
+
 }
 
 h1{
   font-size: 5em;
-  font-family: "english";
+  font-family: "english-small-caps";
   text-align: center;
   color: black;
+
 }
 
 /*INDEXPICTURES*/

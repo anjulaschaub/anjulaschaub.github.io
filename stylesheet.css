@@ -1,149 +1,178 @@
-/*EXPERIMENTS*/
-@media screen and (min-width: 1000px) {
-    body {
-
-    }
+/*---------GENERAL STUFF------------*/
+*{
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
 }
 
-/*GENERAL*/
-*{
-  text-decoration: none;
+a{
+  color: black;
 }
 
 .page,
-.mainmenu,
-.menuitem,
-.itemrow,
-.item,
-.tabs,
-.tabscolumn,
-.tabcollection,
-.smalltabs {
-  border: .01px black dashed;
-
-}
-
-img{
-  width: 100%;
-  overflow: hidden;
+[class*="col-"],
+.row,
+.tab{
+  border: 0.5px #BDBDBD dashed;
 }
 
 .page{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
   width: 90vw;
-  height: 80vw;
+  height: 40vw;
 }
 
-
-
-
-/*TOP PART*/
-.mainmenu{
-  display: block;
-  width: 90vw;
-  height: 10vw;
-}
-
-.menuitem{
-  display: inline-block;
-  width: 29.5vw;
-  height: 10vw;
+img{
+  width: inherit;
   overflow: hidden;
 }
 
-.linkedbox{
-
-}
-
 h1{
-  font-size: 5em;
-  font-family: english-small-caps;
-  text-align: center;
-  color: black;
+  display: flex;
+  font-family: Arial;
+  font-size: 4em;
+}
+/*-------------------------------------*/
 
+
+
+/*---------ROWS------------*/
+.row1{
+  width: 90vw;
+  height: 10vw;
 }
 
-
-/*INDEXPICTURES*/
-.itemrow{
+.row2{
   width: 90vw;
   height: 30vw;
 }
 
-.item{
-  display: inline-block;
-  width: 29vw;
-  height: 29vw;
+.row: after{
+    content: "";
+    clear: both;
+    display: block;
 }
+/*--------------------------*/
 
 
+/*---------COLUMNS----------*/                                                           /*---------UNFINISHED----------*/
 
-/*HEAR and SEE*/
-.changingwindow{
-  display: inline-block;
+.col-1{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30vw;
-  height: 30vw;
 }
+
+.col-2{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+.col-2wide{
+  width:60vw;
+}
+
+.col-3{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+[class*="col-"] {
+    float: left;
+    height: inherit;
+}
+/*--------------------------*/
+
+/*---------TABS----------*/                                                           /*---------UNFINISHED----------*/
 
 .tabcollection{
-  display: inline-block;
-  width: 59vw;
-  height: 29vw;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  height: inherit;
+  width: 60vw;
 }
 
-.smalltabs{
-  display: inline-block;
-  width: 14vw;
-  height: 14vw;
-}
-
-
-
-
-/*TOP MENU LINKS STUFF*/
-h1:link{
-  text-decoration: none;
-  color: black;
-}
-h1:visited{
-  text-decoration: none;
-}
-
-h1:hover{
-  background-color: black;
-  color: white;
-}
-h1:active{
-  text-decoration: none;
-  color: black;
+.tab{
+  display: flex;
+  width: 15vw;
+  height: 15vw;
 }
 
 
 
-
-
-
-/*CHANGING TABS STUFF*/
-.smalltabs:hover{
-  border: 1px black solid;
-}
-
-.smalltabs:active{
-  border: 1px red solid;
+.leftframe{
+  width: inherit;
+  height: inherit;
 }
 
 
-.smalltabs.active{
-  border: 1px purple solid;
-}
-
-
-
-/*CHOSEN TAB*/
-.taboption{
+/*CHANGING FRAME*/
+.leftframe{
   display:none;
 }
 
-.taboption.active{
+.leftframe.active{
   display: block;
+
 }
+
+
+/*--------------------------*/
+
+
+/*---------MAIN MENU HOVER------------*/
+.row1 [class*="col-"]:link h1{
+  text-decoration: none;
+  color: black;
+}
+
+.row1 [class*="col-"]:visited h1{
+  text-decoration: none;
+  color: black;
+}
+
+.row1 [class*="col-"]:hover h1{
+  color: white;
+}
+
+.row1 [class*="col-"]:active h1{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+.row1 [class*="col-"]:hover{
+  background-color: black;
+}
+
+
+
+/*------------------------------------*/

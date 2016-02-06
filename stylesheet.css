@@ -19,7 +19,7 @@
 .tabscolumn,
 .tabcollection,
 .smalltabs {
-  border: .05px #E6E6E6 dashed;
+  border: .01px black dashed;
 
 }
 
@@ -29,11 +29,9 @@ img{
 }
 
 .page{
-  display: flex;
-  flex-direction: column;
   margin: auto;
   width: 90vw;
-  height: 73vw;
+  height: 80vw;
 }
 
 
@@ -41,63 +39,59 @@ img{
 
 /*TOP PART*/
 .mainmenu{
-  display: flex;
-  flex-direction: row;
   width: 90vw;
-  height: 13vw;
+  height: 10vw;
 }
 
 .menuitem{
-  width: 30vw;
-  height: 13vw;
+  display: inline-block;
+  width: 29vw;
+  height: 10vw;
   overflow: hidden;
+}
+
+.linkedbox{
 
 }
 
 h1{
   font-size: 5em;
-  font-family: "english-small-caps";
+  font-family: english-small-caps;
   text-align: center;
   color: black;
 
 }
 
+
 /*INDEXPICTURES*/
 .itemrow{
-  display: flex;
-  flex-direction: row;
   width: 90vw;
   height: 30vw;
 }
 
 .item{
-  display: flex;
-  flex-direction: row;
-  width: 30vw;
-  height: 30vw;
+  display: inline-block;
+  width: 29vw;
+  height: 29vw;
 }
 
 
 
 /*HEAR and SEE*/
-
-
 .changingwindow{
+  display: inline-block;
   width: 30vw;
   height: 30vw;
 }
 
 .tabcollection{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items:center;
-  width: 60vw;
-  height: 30vw;
+  display: inline-block;
+  width: 59vw;
+  height: 29vw;
 }
 
 .smalltabs{
+  display: inline-block;
   width: 14vw;
   height: 14vw;
 }
@@ -105,12 +99,7 @@ h1{
 
 
 
-
-
-
-
-
-/*LINKS STUFF*/
+/*TOP MENU LINKS STUFF*/
 h1:link{
   text-decoration: none;
   color: black;
@@ -130,6 +119,9 @@ h1:active{
 
 
 
+
+
+
 /*CHANGING TABS STUFF*/
 .smalltabs:hover{
   border: 1px black solid;
@@ -143,6 +135,8 @@ h1:active{
 .smalltabs.active{
   border: 1px purple solid;
 }
+
+
 
 /*CHOSEN TAB*/
 .taboption{

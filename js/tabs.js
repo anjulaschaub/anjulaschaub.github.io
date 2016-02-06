@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $("div.tabcollection div.smalltabs").click(function(e){
+    $("div.tabcollection div.tab").click(function(e){
         if (!$(this).hasClass("active")) {
             var tabNum = $(this).index();
             var nthChild = tabNum+1;
-            $("div.tabcollection div.smalltabs.active").removeClass("active");
+            $("div.tabcollection div.tab.active").removeClass("active");
             $(this).addClass("active");
-            $("div.changingwindow div.taboption.active").removeClass("active");
-            $("div.changingwindow div.taboption:nth-child("+nthChild+")").addClass("active");
+            $("div.col-1 div.leftframe.active").removeClass("active");
+            $("div.col-1 div.leftframe:nth-child("+nthChild+")").addClass("active");
         }
     });
 });

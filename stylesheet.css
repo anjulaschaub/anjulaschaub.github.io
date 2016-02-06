@@ -1,51 +1,148 @@
+/*EXPERIMENTS*/
 @media screen and (min-width: 1000px) {
     body {
-      background-color: orange;
+
     }
 }
 
-
-.menuitem > h1{
-  font-size: 5em;
-  font-family: "english";
-  text-align: center;
+/*GENERAL*/
+*{
+  text-decoration: none;
 }
 
-
-.indexpage{
-  margin: 5% auto;
-  width: 90%;
-  height: 100%;
-
-}
-
-.mainmenu{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 30%;
-
-}
-
-.menuitem{
-  width: 33.3333333333333%;
-  height: 100%;
-}
-
-
-
-
-
-.indexpage,
+.page,
 .mainmenu,
-.menuitem {
-  border: 1px #E6E6E6 dashed;
-}
-
-
+.menuitem,
+.itemrow,
+.item,
+.tabs,
+.tabscolumn {
+  border: .05px #E6E6E6 dashed;
 
 }
 
 img{
   width: 100%;
+  overflow: hidden;
+}
+
+
+/*INDEXPAGE*/
+.page{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90vw;
+  height: 73vw;
+
+}
+
+
+/*TOP PART*/
+.mainmenu{
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 13vw;
+}
+
+.menuitem{
+  width: 30vw;
+  height: 13vw;
+}
+
+h1{
+  font-size: 5em;
+  font-family: "english";
+  text-align: center;
+  color: black;
+}
+
+/*INDEXPICTURES*/
+.itemrow{
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 30vw;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 30vw;
+}
+
+.changingitem{
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 30vw;
+}
+
+.tab{
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 30vw;
+}
+
+/*TABS*/
+.tabscolumn{
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 30vw;
+}
+
+.tabs{
+  margin-top: -0.15vw;
+  margin-left: -0.15vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+
+
+/*LINKS STUFF*/
+h1:link{
+  text-decoration: none;
+  color: black;
+}
+h1:visited{
+  text-decoration: none;
+}
+
+h1:hover{
+  background-color: black;
+  color: white;
+}
+h1:active{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/*CHANGING TABS STUFF*/
+.tabs:hover{
+  border: 4px black solid;
+}
+
+.tabs:active{
+  border: 4px red solid;
+}
+
+
+.tabs.active{
+  border: 10px purple solid;
+}
+
+/*CHOSEN TAB*/
+.taboption{
+  display:none;
+}
+
+.taboption.active{
+  display: block;
 }

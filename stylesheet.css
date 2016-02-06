@@ -165,6 +165,7 @@ img.one{
 .text{
   padding-left: 1vw;
   padding-right: 1vw;
+  padding-top:2vw;
 }
 
 .text p{
@@ -174,7 +175,15 @@ img.one{
   text-align: left;
 }
 
-
+.tab.active .darkening{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
 
 
 

@@ -39,13 +39,14 @@ img{
 
 /*TOP PART*/
 .mainmenu{
+  display: block;
   width: 90vw;
   height: 10vw;
 }
 
 .menuitem{
   display: inline-block;
-  width: 29vw;
+  width: 29.5vw;
   height: 10vw;
   overflow: hidden;
 }

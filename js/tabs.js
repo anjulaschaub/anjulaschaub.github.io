@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("div.tabcollection div.tab").click(function(e){
+    $("div.tabcollection div.tab").hover(function(e){
         if (!$(this).hasClass("active")) {
             var tabNum = $(this).index();
             var nthChild = tabNum+1;

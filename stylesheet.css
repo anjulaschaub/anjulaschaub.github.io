@@ -3,6 +3,7 @@
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
+  overflow: hidden;
 }
 
 a{
@@ -119,8 +120,10 @@ h1{
 
 .tab{
   display: flex;
+  position: relative;
   width: 15vw;
   height: 15vw;
+  z-index: auto:-1;
 }
 
 
@@ -130,6 +133,58 @@ h1{
   height: inherit;
 }
 
+
+/*TABS HOVER*/
+
+
+img.one{
+  position: absolute;
+  border: 0.5px #BDBDBD dashed;
+}
+
+
+.darkening{
+  display: none;
+}
+
+
+
+.tab:hover .darkening{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+
+
+
+.text{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.text p{
+  color: #A4A4A4;
+  font-family: gill sans;
+  font-size: 0.7em;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------*/
 
 /*CHANGING FRAME*/
 .leftframe{

@@ -16,7 +16,9 @@
 .itemrow,
 .item,
 .tabs,
-.tabscolumn {
+.tabscolumn,
+.tabcollection,
+.smalltabs {
   border: .05px #E6E6E6 dashed;
 
 }
@@ -26,16 +28,15 @@ img{
   overflow: hidden;
 }
 
-
-/*INDEXPAGE*/
 .page{
   display: flex;
   flex-direction: column;
   margin: auto;
   width: 90vw;
   height: 73vw;
-
 }
+
+
 
 
 /*TOP PART*/
@@ -73,34 +74,35 @@ h1{
   height: 30vw;
 }
 
-.changingitem{
-  display: flex;
-  flex-direction: row;
+
+
+/*HEAR and SEE*/
+
+
+.changingwindow{
   width: 30vw;
   height: 30vw;
 }
 
-.tab{
+.tabcollection{
   display: flex;
   flex-direction: row;
-  width: 30vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60vw;
   height: 30vw;
 }
 
-/*TABS*/
-.tabscolumn{
-  display: flex;
-  flex-direction: column;
-  width: 15vw;
-  height: 30vw;
+.smalltabs{
+  width: 14.82vw;
+  height: 14.9vw;
 }
 
-.tabs{
-  margin-top: -0.15vw;
-  margin-left: -0.15vw;
-  width: 15vw;
-  height: 15vw;
-}
+
+
+
+
+
 
 
 
@@ -125,17 +127,17 @@ h1:active{
 
 
 /*CHANGING TABS STUFF*/
-.tabs:hover{
-  border: 4px black solid;
+.smalltabs:hover{
+  border: 1px black solid;
 }
 
-.tabs:active{
-  border: 4px red solid;
+.smalltabs:active{
+  border: 1px red solid;
 }
 
 
-.tabs.active{
-  border: 10px purple solid;
+.smalltabs.active{
+  border: 1px purple solid;
 }
 
 /*CHOSEN TAB*/

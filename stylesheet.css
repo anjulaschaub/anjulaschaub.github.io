@@ -3,7 +3,6 @@
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
-  overflow: hidden;
 }
 
 a{
@@ -22,7 +21,7 @@ a{
   margin-right: auto;
   margin-top: 10vh;
   width: 90vw;
-  height: 40vw;
+  height: 100vw;
 }
 
 img{
@@ -49,6 +48,12 @@ h1{
   width: 90vw;
   height: 30vw;
 }
+
+.row3{
+  width: 90vw;
+  height: 60vw;
+}
+
 
 .row: after{
     content: "";
@@ -229,13 +234,44 @@ img.one{
   color: black;
 }
 
-
-
-
-
 .row1 [class*="col-"]:hover{
   background-color: black;
 }
+
+
+
+/*------------------------------------*/
+
+
+/*------------------TABLE------------------*/
+
+table{
+  table-layout: fixed;
+  border-spacing: 0;
+  width: 30vw;
+}
+
+td{
+  overflow: hidden;
+}
+
+.left{
+border-right:1px #D8D8D8 solid;
+padding-right: 1vw;
+text-align:right;
+
+}
+
+.middle{
+
+}
+
+.right.stuff{
+  color:black;
+
+}
+
+
 
 
 

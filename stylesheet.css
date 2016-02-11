@@ -35,6 +35,12 @@ h1{
   font-family: Arial;
   font-size: 4em;
 }
+
+.activehead{
+  border-top: black 2px dotted;
+  border-left: black 2px dotted;
+  border-right: black 2px dotted;
+}
 /*-------------------------------------*/
 
 
@@ -50,10 +56,27 @@ h1{
   height: 30vw;
 }
 
-.row3{
+/*--BUTTON ROW--*/
+
+.row3index{
+  width: 90vw;
+  height: 3vw;
+}
+
+.row3seehear{
+  width: 90vw;
+  height: 3vw;
+}
+
+#slidedownbutton{
+  width: 30vw;
+  text-align: left;
+}
+/*--------------*/
+
+.row4{
   width: 90vw;
   height: 30vw;
-
 }
 
 
@@ -104,7 +127,75 @@ h1{
   width: 30vw;
 }
 
+/*-------SEEHEARColumns---------------*/
+
+.seehearcol-0{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+.seehearcol-1{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+
+.seehearcol-2{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+
+.seehearcol-3{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+
+.seehearcol-4{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+}
+
+
+
+
+/*------------------------------------*/
+
+
 [class*="col-"] {
+    float: left;
+    height: inherit;
+}
+
+[class*="seehearcol-"] {
     float: left;
     height: inherit;
 }
@@ -233,7 +324,7 @@ img.one{
 
 .row1 [class*="col-"]:active h1{
   text-decoration: none;
-  color: black;
+  color: darkgrey;
 }
 
 .row1 [class*="col-"]:hover{
@@ -292,14 +383,9 @@ color: #6E6E6E;
 
 
 
-/*------------------------------------*/
+/*-----------------------------------*/
 
 
-#slidedownbutton{
-  width: 30vw;
-  text-align: left;
-  border: 0.5px #BDBDBD dashed
-}
 
 
 #panel, #flip {

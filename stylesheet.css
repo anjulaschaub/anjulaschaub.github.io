@@ -51,7 +51,7 @@ h1{
 }
 
 .row3{
-  width: 30vw;
+  width: 90vw;
   height: 30vw;
 
 }
@@ -295,11 +295,15 @@ color: #6E6E6E;
 /*------------------------------------*/
 
 
+#slidedownbutton{
+  width: 30vw;
+  text-align: left;
+  border: 0.5px #BDBDBD dashed
+}
+
+
 #panel, #flip {
-    width: 30vw;
-    text-align: left;
     background-color: white;
-    border: 0.5px #BDBDBD dashed
 }
 
 #panel {

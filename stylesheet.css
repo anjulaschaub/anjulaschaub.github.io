@@ -329,26 +329,19 @@ img.one{
 
 
 
+/* CHANGING LEFT FRAME*/
 
 .col-1.setA{
-  visibility: hidden;
-}
-
-.col-1.setA.active{
-  visibility: visible;
-}
-
-.col-1.setA.hidden{
   display: none;
 }
 
+.col-1.setA.active{
+  display: block;
+}
 
 
 
-
-
-
-.col-1.setB{                                                  /* NOT FINISHED*/
+.col-1.setB{
   display: none;
 }
 
@@ -356,6 +349,14 @@ img.one{
   display: block;
 }
 
+
+.col-1.setC{
+  display: none;
+}
+
+.col-1.setC.active{
+  display: block;
+}
 
 
 /*--------------------------*/

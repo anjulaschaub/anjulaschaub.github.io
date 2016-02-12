@@ -1,10 +1,10 @@
 
 $(document).ready(function(){
     $("div.tabcollection.set2 div.tab").click(function(e){
-      $("div.col-1.setA").addClass("hidden");
       $("div.col-1.setA").removeClass("active");
-      $("div.col-1.setB").addClass("active");                                         
-    if (!$(this).hasClass("active")) {
+      $("div.col-1.setC").removeClass("active");
+      $("div.col-1.setB").addClass("active");
+        if (!$(this).hasClass("active")) {
             var tabNum = $(this).index();
             var nthChild = tabNum+1;
             $("div.tabcollection.set2 div.tab.active").removeClass("active");

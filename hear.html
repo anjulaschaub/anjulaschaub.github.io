@@ -15,6 +15,9 @@
   <script src="js/tabcollection.js"></script>
 
 
+  <script src="js/quicktimealterations.js"></script>
+
+
 
 
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
@@ -51,13 +54,10 @@
     <!--CHANGING FRAME SET 1---------------------------->
     <div class="col-1 setA active">
       <div class="leftframe active">
-        <EMBED
-        SRC="audio/ma6_stimulus.MP3"
-        HEIGHT=100% WIDTH=100%
-        TYPE="video/quicktime"
-        PLUGINSPAGE="http://www.apple.com/quicktime/download/"
-        AUTOPLAY="false"
-        />
+        <div class="video-player" align="center">
+            <video src="audio/ma6_stimulus.MP3" poster="" ></video>
+            <a href="javascript:playPause();"><img src="images/playpause.PNG"></a>
+        </div>
       </div>
       <div class="leftframe">
           <img src="images/play.JPG">

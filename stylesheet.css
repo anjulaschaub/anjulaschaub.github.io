@@ -22,7 +22,7 @@ a{
   margin-right: auto;
   margin-top: 8vh;
   width: 90vw;
-  height: 200vw;
+  height: 80vw;
 }
 
 img{
@@ -50,7 +50,7 @@ h1{
 }
 
 .separator{
-  height: 2vw;
+  height: 1.5vw;
 }
 /*-------------------------------------*/
 
@@ -511,3 +511,5 @@ color: #6E6E6E;
     width: 30vw;
     display: none;
 }
+
+/*-----------------------------------*/

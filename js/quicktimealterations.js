@@ -1,6 +1,6 @@
 function playPause() {
 
-    var myVideo = document.getElementsByTagName('video')[0];
+    var myVideo = document.getElementsByTagName('audio')[0];
 
     if (myVideo.paused)
 
@@ -14,7 +14,7 @@ function playPause() {
 
 function makeBig() {
 
-   var myVideo = document.getElementsByTagName('video')[0];
+   var myVideo = document.getElementsByTagName('audio')[0];
 
    myVideo.height = myVideo.videoHeight * 2;
 
@@ -22,7 +22,7 @@ function makeBig() {
 
 function makeNormal() {
 
-   var myVideo = document.getElementsByTagName('video')[0];
+   var myVideo = document.getElementsByTagName('audio')[0];
 
    myVideo.height = myVideo.videoHeight;
 

@@ -306,6 +306,9 @@ h1{
 
 
 .leftframe{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: inherit;
   height: inherit;
 }
@@ -367,7 +370,8 @@ img.one{
 }
 
 .leftframe.active{
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -513,3 +517,38 @@ color: #6E6E6E;
 }
 
 /*-----------------------------------*/
+
+
+/*----------------MUSIC AUDIO ETC-------------------*/
+.moreinfoA{
+  display: flex;
+  width: 30vw;
+  height: 20vw;
+  border: 0.2px black dashed;
+}
+
+
+.video-player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
+  border: 0.2px black dashed;
+}
+
+.playpausebutton{
+  display: flex;
+  width: 5vw;
+  height: 5vw;
+  border: 0.2px black dashed;
+}
+
+.downloadbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
+  border: 0.2px black dashed;
+}

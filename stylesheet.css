@@ -20,7 +20,7 @@ a{
 .page{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
+  margin-top: 8vh;
   width: 90vw;
   height: 200vw;
 }
@@ -36,10 +36,21 @@ h1{
   font-size: 4em;
 }
 
+.noshow{
+  visibility: hidden;
+}
+
+.noborder{
+  border: 0px;
+}
+
 .activehead{
-  border-top: black 2px dotted;
-  border-left: black 2px dotted;
-  border-right: black 2px dotted;
+
+
+}
+
+.separator{
+  height: 2vw;
 }
 /*-------------------------------------*/
 
@@ -58,50 +69,53 @@ h1{
 
 /*--BUTTON ROW--*/
 
-.row3index{
+.rowbuttons{
+  width: 90vw;
+  height: 2vw;
+}
+
+.rowbuttonsseehear{
   width: 90vw;
   height: 3vw;
 }
 
-.row3seehear{
-  width: 90vw;
-  height: 3vw;
+.button{
+  font-size: .8em;
+  font-style: italic;
+  width: 15vw;
+  color: grey;
 }
 
-#slidedownbutton{
-  width: 30vw;
-  text-align: left;
+/*---------Buttons HOVER------*/
+.rowbuttons [class*="buttonscol-"]:link p{
+  text-decoration: none;
+  color: black;
 }
 
-.buttontab{
-  width: inherit;
-  height: inherit;
-  border: 0.5px dashed #BDBDBD;
-  font-style: oblique;
-  background-color: white;
+.rowbuttons [class*="buttonscol-"]:visited p{
+  text-decoration: none;
+  color: black;
 }
 
-.buttontab.active{
-  border-bottom: 2px dotted black;
-  border-left: 2px dotted black;
-  border-right: 2px dotted black;
-}
-
-.buttontab:hover{
-  background-color: black;
-  opacity: 0.6;
-}
-
-.buttontab:hover p{
+.rowbuttons [class*="buttonscol-"]:hover p{
   color: white;
 }
 
-.buttontab.noshow{
-  visibility: hidden;
+.rowbuttons [class*="buttonscol-"]:active p{
+  text-decoration: none;
+  color: darkgrey;
 }
 
+.rowbuttons [class*="buttonscol-"]:hover{
+  background-color: black;
+}
+/*---------------------------*/
 
 
+.slidedown{
+  width: 30vw;
+  text-align: left;
+}
 
 
 
@@ -122,6 +136,35 @@ h1{
 
 
 /*---------COLUMNS----------*/                                                           /*---------UNFINISHED----------*/
+
+/*Second row of buttons columns*/
+                                                        /*---------UNFINISHED----------*/
+
+[class*="buttonscol-"] {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  border: 0px;
+}
+
+.buttonsinfo{
+  text-align: right;
+  color: darkgrey;
+}
+
+
+
+/*----------------------------------*/
+
+
+
+
+
 
 .col-1{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -405,9 +448,6 @@ img.one{
 .row1 [class*="col-"]:hover{
   background-color: black;
 }
-
-
-
 /*------------------------------------*/
 
 

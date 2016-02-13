@@ -496,7 +496,7 @@ color: #6E6E6E;
   .downloadbox p{
     display: flex;
     font-size: 1.2em;
-    color: grey;
+    color: #FAFAFA;
     border: 0px black dashed;
     font-family: "museo-sans";
     font-weight: 900;

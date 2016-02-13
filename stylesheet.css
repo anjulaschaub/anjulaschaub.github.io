@@ -566,6 +566,17 @@ img.one{
   line-height: 1.5em;
 }
 
+.wrap1 .text p span,
+.wrap2 .text p span,
+.wrap3 .text p span{
+  color: white;
+  font-family: "museo-sans";
+  font-weight: 100;
+  font-size: 0.9em;
+  text-align: left;
+  line-height: 1.2em;
+}
+
 .text p a{
   color: white;
   font-family: "museo-sans";

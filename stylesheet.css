@@ -88,9 +88,11 @@ img{
 
 /*extra buttons——————————————————————————————————————————————————————*/
 
+
 .rowbuttons{
   width: 90vw;
   height: 2vw;
+  margin-top: 2vw;
 }
 
 
@@ -101,12 +103,6 @@ img{
   height: 30vw;
 }
 
-
-.row: after{
-    content: "";
-    clear: both;
-    display: block;
-}
 
 /*——————————————————————————————————————————————————————COLUMNS*/
 
@@ -235,27 +231,46 @@ img{
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 15vw;
-  border: 0px;
+  border: 0px black solid;
 }
 
 .button{
-  font-size: .8em;
+  font-size: 1.5em;
   font-style: italic;
   width: 15vw;
-  color: grey;
+  color: black;
   padding-left: 1vw;
-}
-
-.button p{
   text-align: left;
 }
 
-.buttonsinfo{
-  text-align: right;
-  color: darkgrey;
+.buttonindex{
+  font-size: 0.8em;
+  font-style: italic;
+  width: 15vw;
+  color: black;
+  padding-left: 1vw;
+  text-align: left;
 }
+
+.buttonindex p,
+.button p{
+  text-align: left;
+
+}
+
+.buttonsinfo{
+  text-align: left;
+  color: black;
+  font-variant: small-caps;
+}
+
+.buttonsinfo span{
+  color: white;
+}
+
+
 
 /*Buttons hover formatting——————————————————————————————————————————————————————*/
 .rowbuttons [class*="buttonscol-"]:link p{
@@ -305,7 +320,7 @@ td{
 }
 
 tr{
-  height: 60px;
+  height: 70px;
 }
 
 .first{

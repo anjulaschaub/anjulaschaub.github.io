@@ -531,12 +531,73 @@ color: #6E6E6E;
   z-index: auto:-1;
 }
 
-/*——————————————————————————————————————————————————————Tabs Hover*/
 
+/*——————————————————————————————————————————————————————Index Hover*/
 img.one{
   position: absolute;
   border: 0px #BDBDBD dashed;
 }
+.wrap1,
+.wrap2,
+.wrap3{
+  display: flex;
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  z-index: auto:-1;
+}
+
+.wrap1 .darkening .text,
+.wrap2 .darkening .text,
+.wrap3 .darkening .text{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+}
+
+.wrap1 .text p,
+.wrap2 .text p,
+.wrap3 .text p{
+  color: white;
+  font-family: "museo-sans";
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+
+
+.wrap1:hover .darkening{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.wrap2:hover .darkening{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: #B8177E;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.wrap3:hover .darkening{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: #135D98;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+/*——————————————————————————————————————————————————————Tabs Hover*/
 
 .darkening{
   display: none;
@@ -574,11 +635,5 @@ img.one{
   opacity: 0.8;
   z-index: 1;
 }
-
-
-
-
-
-
 
 /*-----------------------------------*/

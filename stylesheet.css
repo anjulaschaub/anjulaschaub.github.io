@@ -550,9 +550,9 @@ img.one{
 .wrap1 .darkening .text,
 .wrap2 .darkening .text,
 .wrap3 .darkening .text{
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 3vw;
 }
 
 .wrap1 .text p,
@@ -563,9 +563,18 @@ img.one{
   font-weight: 900;
   font-size: 1.5em;
   text-align: left;
+  line-height: 1.5em;
 }
 
-
+.text p a{
+  color: white;
+  font-family: "museo-sans";
+  font-weight: 900;
+  font-size: inherit;
+  text-align: left;
+  line-height: 1.5em;
+  text-decoration: underline;
+}
 
 .wrap1:hover .darkening{
   position: absolute;

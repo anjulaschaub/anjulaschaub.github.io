@@ -8,6 +8,8 @@
 }
 
 *{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
@@ -20,6 +22,7 @@ a{
 
 img{
   width: inherit;
+  height: inherit;
   overflow: hidden;
 }
 
@@ -37,51 +40,61 @@ img{
 
 .page,
 [class*="col-"],
-.row,
+[class*="row-"],
 .tab{
-  border: 0.5px #BDBDBD dashed;   /*borders to see what's happening*/
+  box-sizing: border-box;
+  border-bottom: 0.1px #BDBDBD dashed;   /*borders to see what's happening*/
 }
 
-/*——————————————————————————————————————————————————————ROWS*/
+.tab{
+  box-sizing: border-box;
+  border-left: 0.1px #BDBDBD dashed;   /*borders to see what's happening*/
+}
 
-/*main menu——————————————————————————————————————————————————————row1*/
-.row1{
+
+
+
+
+/*——————————————————————————————————————————————————————row-S*/
+
+/*main menu——————————————————————————————————————————————————————row-1*/
+.row-1{
   width: 90vw;
   height: 10vw;
 }
 
-.row1 h1{
+.row-1 h1{
   display: flex;
-  font-family: "museo-sans";
+  font-family: "Arial";
   font-size: 4em;
 }
 
 /*Main menu hover formatting——————————————————————————————————————————————————————*/
-.row1 [class*="col-"]:link h1{
+.row-1 [class*="col-"]:link h1{
   text-decoration: none;
   color: black;
 }
 
-.row1 [class*="col-"]:visited h1{
+.row-1 [class*="col-"]:visited h1{
   text-decoration: none;
   color: black;
 }
 
-.row1 [class*="col-"]:hover h1{
+.row-1 [class*="col-"]:hover h1{
   color: white;
 }
 
-.row1 [class*="col-"]:active h1{
+.row-1 [class*="col-"]:active h1{
   text-decoration: none;
   color: darkgrey;
 }
 
-.row1 [class*="col-"]:hover{
+.row-1 [class*="col-"]:hover{
   background-color: black;
 }
 
-/*main boxes——————————————————————————————————————————————————————row2*/
-.row2{
+/*main boxes——————————————————————————————————————————————————————row-2*/
+.row-2{
   width: 90vw;
   height: 30vw;
 }
@@ -89,16 +102,16 @@ img{
 /*extra buttons——————————————————————————————————————————————————————*/
 
 
-.rowbuttons{
+.row-buttons{
   width: 90vw;
   height: 2vw;
   margin-top: 2vw;
 }
 
 
-/*more info, etc.——————————————————————————————————————————————————————rows more*/
+/*more info, etc.——————————————————————————————————————————————————————row-s more*/
 
-.row4{
+.row-4{
   width: 90vw;
   height: 30vw;
 }
@@ -107,6 +120,7 @@ img{
 /*——————————————————————————————————————————————————————COLUMNS*/
 
 [class*="col-"] {
+
     float: left;
     height: inherit;
 }
@@ -222,7 +236,7 @@ img{
 
 
 
-/*——————————————————————————————————————————————————————BUTTONS ROW*/
+/*——————————————————————————————————————————————————————BUTTONS row-*/
 
 [class*="buttonscol-"] {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -273,26 +287,26 @@ img{
 
 
 /*Buttons hover formatting——————————————————————————————————————————————————————*/
-.rowbuttons [class*="buttonscol-"]:link p{
+.row-buttons [class*="buttonscol-"]:link p{
   text-decoration: none;
   color: black;
 }
 
-.rowbuttons [class*="buttonscol-"]:visited p{
+.row-buttons [class*="buttonscol-"]:visited p{
   text-decoration: none;
   color: black;
 }
 
-.rowbuttons [class*="buttonscol-"]:hover p{
+.row-buttons [class*="buttonscol-"]:hover p{
   color: white;
 }
 
-.rowbuttons [class*="buttonscol-"]:active p{
+.row-buttons [class*="buttonscol-"]:active p{
   text-decoration: none;
   color: darkgrey;
 }
 
-.rowbuttons [class*="buttonscol-"]:hover{
+.row-buttons [class*="buttonscol-"]:hover{
   background-color: black;
 }
 
@@ -400,7 +414,7 @@ color: #6E6E6E;
 
   .leftframe.active{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
@@ -409,6 +423,7 @@ color: #6E6E6E;
     padding-right: 2vw;
     width: inherit;
     height: inherit;
+    border: 0px #BDBDBD dashed;
   }
 
   /*——————————————————————————————————————————————————————MORE INFO BOX*/
@@ -489,7 +504,7 @@ color: #6E6E6E;
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  flex-direction: row;
+  flex-direction: row-;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   height: inherit;
@@ -508,7 +523,7 @@ color: #6E6E6E;
 
 img.one{
   position: absolute;
-  border: 0.5px #BDBDBD dashed;
+  border: 0px #BDBDBD dashed;
 }
 
 .darkening{

@@ -52,7 +52,11 @@ img{
 }
 
 
-
+hr{
+  height: 1px;
+  background-color: lightgrey;
+  border: none;
+}
 
 
 /*——————————————————————————————————————————————————————row-S*/
@@ -441,7 +445,7 @@ color: #6E6E6E;
   .moreinfotitle h1{
     text-align: left;
     font-size: 1.5em;
-    font-variant: small-caps;
+    font-family: "museo-sans";
     line-height: 0vw;
   }
 

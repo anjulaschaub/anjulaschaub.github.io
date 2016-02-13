@@ -439,7 +439,6 @@ color: #6E6E6E;
     justify-content: left;
     width: 30vw;
     height: 3vw;
-    color: grey;
     border: 0px black dashed;
   }
 
@@ -447,7 +446,8 @@ color: #6E6E6E;
     text-align: left;
     font-size: 1.5em;
     font-family: "museo-sans";
-    font-weight: 700;
+    color: black;
+    font-weight: 100;
     line-height: 0vw;
   }
 
@@ -496,7 +496,7 @@ color: #6E6E6E;
   .downloadbox p{
     display: flex;
     font-size: 1.2em;
-    color: #FAFAFA;
+    color: #D8D8D8;
     border: 0px black dashed;
     font-family: "museo-sans";
     font-weight: 900;

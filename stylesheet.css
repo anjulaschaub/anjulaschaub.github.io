@@ -371,6 +371,7 @@ color: #6E6E6E;
   text-align: left;
   color: lightgrey;
   font-family: "museo-sans";
+  font-weight: 100;
 }
 
 .leben a{
@@ -463,6 +464,7 @@ color: #6E6E6E;
     line-height: 1.5vw;
     text-align: justify;
     font-family: "museo-sans";
+    font-weight: 100;
   }
 
   .video-player{
@@ -495,6 +497,8 @@ color: #6E6E6E;
     font-size: 1.2em;
     color: grey;
     border: 0px black dashed;
+    font-family: "museo-sans"
+    font-weight: 900;
     margin-bottom: 0;
   }
 

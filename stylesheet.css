@@ -537,6 +537,8 @@ img.one{
   position: absolute;
   border: 0px #BDBDBD dashed;
 }
+
+
 .wrap1,
 .wrap2,
 .wrap3{
@@ -547,7 +549,13 @@ img.one{
   z-index: auto:-1;
 }
 
-.wrap1 .darkening .text,
+.wrap1 .darkening .text{
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 10vw;
+}
+
+
 .wrap2 .darkening .text,
 .wrap3 .darkening .text{
   padding-left: 3vw;
@@ -555,7 +563,17 @@ img.one{
   padding-top: 3vw;
 }
 
-.wrap1 .text p,
+.wrap1 .text p{
+  color: white;
+  font-family: "museo-sans";
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+
+
 .wrap2 .text p,
 .wrap3 .text p{
   color: white;
@@ -572,7 +590,7 @@ img.one{
   color: white;
   font-family: "museo-sans";
   font-weight: 100;
-  font-size: 0.9em;
+  font-size: 0.7em;
   text-align: left;
   line-height: 1.2em;
 }

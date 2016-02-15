@@ -151,21 +151,25 @@ hr{
 
 
 [class*="col-"] {
-    float: left;
-    height: inherit;
+  float: left;
+  height: inherit;
 }
 
 .col-1{
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   width: 30vw;
 }
 
 .col-2{
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   width: 30vw;
 }
 
@@ -183,7 +187,9 @@ hr{
 .col-3{
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   width: 30vw;
 }
 
@@ -192,40 +198,30 @@ hr{
 [class*="seehearcol-"] {
     float: left;
     height: inherit;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 
 .seehearcol-0{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30vw;
 }
 
 .seehearcol-1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 15vw;
 }
 
 .seehearcol-2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 15vw;
 }
 
 .seehearcol-3{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 15vw;
 }
 
 .seehearcol-4{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 15vw;
 }
 
@@ -239,7 +235,9 @@ hr{
 [class*="buttonscol-"] {
   display: flex;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: left;
+  -webkit-justify-content: left;
   width: 15vw;
   border: 0px black solid;
 }
@@ -410,10 +408,14 @@ color: #6E6E6E;
 
   .leftframe.active{
     display: flex;
-    flex-direction: row-;
+    flex-direction: row;
+    -webkit-flex-direction: row;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: flex-start;
+    -webkit-justify-content: flex-start;
     align-content: flex-start;
+    -webkit-align-content: flex-start;
     padding-top: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -427,6 +429,7 @@ color: #6E6E6E;
   .moreinfotitle{
     display: flex;
     justify-content: left;
+    -webkit-justify-content: left;
     width: 30vw;
     height: 3vw;
     border: 0px black dashed;
@@ -468,7 +471,9 @@ color: #6E6E6E;
   .video-player{
     display: flex;
     justify-content: center;
+    -webkit-justify-content: center;
     align-items: flex-end;
+    -webkit-align-items: flex-end;
     width: 6vw;
     height: 5vw;
     border: 0px black dashed;
@@ -483,7 +488,9 @@ color: #6E6E6E;
   .downloadbox{
     display: flex;
     align-items: flex-end;
+    -webkit-align-items: flex-end;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     width: 20vw;
     height: 5vw;
     border: 0px black dashed;
@@ -508,7 +515,8 @@ color: #6E6E6E;
 
 .tabcollection.active{
   display: flex;
-  flex-direction: row-;
+  flex-direction: row;
+  -webkit-flex-direction: row;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   height: inherit;

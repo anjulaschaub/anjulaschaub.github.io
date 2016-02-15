@@ -273,7 +273,7 @@ hr{
 }
 
 .button{
-  font-size: 1.5em;
+  font-size: 1em;
   font-style: italic;
   width: 15vw;
   color: black;
@@ -451,6 +451,42 @@ color: #6E6E6E;
     padding-right: 2vw;
     width: inherit;
     height: inherit;
+    border: 0px #BDBDBD dashed;
+  }
+
+
+
+  .leftframe.active.pic{
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+    padding-top: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    width: auto;
+    height: inherit;
+    border: 0px #BDBDBD dashed;
+  }
+
+
+
+  .leftframe.active.pic.horizontal{
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+    padding-top: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    width: inherit;
+    height: auto;
     border: 0px #BDBDBD dashed;
   }
 

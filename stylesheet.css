@@ -13,7 +13,6 @@
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
-  font-family: Gill sans;
 }
 
 a{
@@ -64,8 +63,6 @@ hr{
 [class*=“seehearcol-“],
 [class*=“buttonscol-“],
 .leftframe.active,
-.moreinfoA,
-.moreinfotitle,
 .video-player,
 .playpausebutton,
 .downloadbox,
@@ -82,7 +79,42 @@ hr{
 }
 
 
-/*——————————————————————————————————————————————————————row-S*/
+/*——————————————————————————————————————————————————————FONTS*/
+
+
+
+
+
+
+.row-1 h1{
+  font-family: "Merriweather";
+}
+
+.leben,
+.leben a,
+.moreinfo h1,
+.moreinfo p,
+.moreinfo p a,
+.downloadbox p,
+.wrap1 .text p
+.wrap2 .text p,
+.wrap3 .text p,
+.wrap1 .text p span,
+.wrap2 .text p span,
+.wrap3 .text p span,
+.text p,
+.text p a
+{
+  font-family: "museo-sans";
+}
+
+
+
+
+
+
+
+
 
 /*main menu——————————————————————————————————————————————————————row-1*/
 .row-1{
@@ -92,7 +124,6 @@ hr{
 
 .row-1 h1{
   display: flex;
-  font-family: "Merriweather";
   font-weight: 300;
   font-size: 4em;
 }
@@ -357,8 +388,8 @@ color: #6E6E6E;
   font-size: 0.9em;
   text-align: left;
   color: lightgrey;
-  font-family: "museo-sans";
   font-weight: 100;
+  line-height: 1.5em;
 }
 
 .leben a{
@@ -367,7 +398,7 @@ color: #6E6E6E;
   font-kerning: 4em;
   font-style: italic;
   font-variant: small-caps;
-  line-height: 1.7em;
+  line-height: 1.5em;
   }
 
 
@@ -415,7 +446,7 @@ color: #6E6E6E;
     -webkit-justify-content: flex-start;
     align-content: flex-start;
     -webkit-align-content: flex-start;
-    padding-top: 2vw;
+    padding-top: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
     width: inherit;
@@ -425,42 +456,32 @@ color: #6E6E6E;
 
   /*——————————————————————————————————————————————————————MORE INFO BOX*/
 
-  .moreinfotitle{
-    display: flex;
+  .moreinfo{
     justify-content: left;
     -webkit-justify-content: left;
     width: 30vw;
-    height: 3vw;
+    height: 21.5vw;
     border: 0px black dashed;
   }
 
-  .moreinfotitle h1{
+  .moreinfo h1{
     text-align: left;
     font-size: 1.5em;
-    font-family: "museo-sans";
     color: black;
     font-weight: 300;
-    line-height: 0vw;
   }
 
-  .moreinfoA{
-    display: flex;
-    width: 30vw;
-    height: 17vw;
-    border: 0px black dashed;
-  }
 
-  .moreinfoA p{
+  .moreinfo p{
     color: grey;
     text-align: left;
     font-size: 0.7em;
     line-height: 1.5vw;
     text-align: justify;
-    font-family: "museo-sans";
     font-weight: 100;
   }
 
-  .moreinfoA a{
+  .moreinfo a{
     text-decoration: underline;
   }
 
@@ -501,7 +522,6 @@ color: #6E6E6E;
     font-size: 1.2em;
     color: #E6E6E6;
     border: 0px black dashed;
-    font-family: "museo-sans";
     font-weight: 900;
     margin-bottom: 0;
   }
@@ -567,7 +587,6 @@ img.one{
 
 .wrap1 .text p{
   color: white;
-  font-family: "museo-sans";
   font-weight: 900;
   font-size: 1.5em;
   text-align: center;
@@ -579,7 +598,6 @@ img.one{
 .wrap2 .text p,
 .wrap3 .text p{
   color: white;
-  font-family: "museo-sans";
   font-weight: 900;
   font-size: 1.5em;
   text-align: left;
@@ -590,7 +608,6 @@ img.one{
 .wrap2 .text p span,
 .wrap3 .text p span{
   color: white;
-  font-family: "museo-sans";
   font-weight: 100;
   font-size: 0.7em;
   text-align: left;
@@ -599,7 +616,6 @@ img.one{
 
 .text p a{
   color: white;
-  font-family: "museo-sans";
   font-weight: 900;
   font-size: inherit;
   text-align: left;
@@ -661,7 +677,6 @@ img.one{
 
 .text p{
   color: #A4A4A4;
-  font-family: gill sans;
   font-size: 0.7em;
   text-align: left;
 }

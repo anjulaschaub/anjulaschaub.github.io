@@ -40,15 +40,14 @@ img{
 
 .page,
 [class*="col-"],
-[class*="row-"],
-.tab{
+[class*="row-"]{
   box-sizing: border-box;
   border-bottom: 0.1px #BDBDBD dashed;   /*borders to see what's happening*/
 }
 
 .tab{
   box-sizing: border-box;
-  border-left: 0.1px #BDBDBD dashed;   /*borders to see what's happening*/
+  border: 0.1px #BDBDBD dashed;   /*borders to see what's happening*/
 }
 
 
@@ -133,7 +132,7 @@ hr{
 
 .row-buttons{
   width: 90vw;
-  height: 2vw;
+  height: 4vw;
   margin-top: 2vw;
 }
 
@@ -520,6 +519,9 @@ color: #6E6E6E;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   height: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   width: 60vw;
 }
 
@@ -647,7 +649,7 @@ img.one{
   width: inherit;
   height: inherit;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.75;
   z-index: 1;
 }
 
@@ -670,7 +672,7 @@ img.one{
   width: inherit;
   height: inherit;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.75;
   z-index: 1;
 }
 

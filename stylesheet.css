@@ -83,15 +83,8 @@ hr{
 
 /*——————————————————————————————————————————————————————FONTS*/
 
-
-
-
-
-
 .row-1 h1,
-.buttonindex p,
-.button,
-td{
+{
   font-family: "Merriweather", "arial";
 }
 
@@ -108,8 +101,10 @@ td{
 .wrap2 .text p span,
 .wrap3 .text p span,
 .text p,
-.text p a
-{
+.text p a,
+.buttonindex p,
+.button,
+td{
   font-family: "museo-sans";
 }
 

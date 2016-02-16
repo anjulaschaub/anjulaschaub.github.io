@@ -146,7 +146,7 @@ function playPaused() {                                                      /*F
         myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[1];
         myVideo.pause();
-    var myVideo = document.getElementsByTagName('audio')[3];
+    var myVideo = document.getElementsByTagName('audio')[2];
         myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[4];
         myVideo.pause();

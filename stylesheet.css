@@ -79,6 +79,8 @@ hr{
 }
 
 
+
+
 /*——————————————————————————————————————————————————————FONTS*/
 
 
@@ -86,8 +88,11 @@ hr{
 
 
 
-.row-1 h1{
-  font-family: "Merriweather";
+.row-1 h1,
+.buttonindex p,
+.button,
+td{
+  font-family: "Merriweather", "arial";
 }
 
 .leben,
@@ -642,7 +647,7 @@ img.one{
 .wrap3 .darkening .text{
   padding-left: 3vw;
   padding-right: 3vw;
-  padding-top: 3vw;
+  padding-top: 1.5vw;
 }
 
 .wrap1 .text p{
@@ -652,8 +657,6 @@ img.one{
   text-align: center;
   line-height: 1.5em;
 }
-
-
 
 .wrap2 .text p,
 .wrap3 .text p{
@@ -715,9 +718,11 @@ img.one{
 
 /*——————————————————————————————————————————————————————Tabs Hover*/
 
+.darkeningb,
 .darkening{
   display: none;
 }
+
 
 .tab:hover .darkening{
   position: absolute;
@@ -729,6 +734,17 @@ img.one{
   z-index: 1;
 }
 
+.tab:hover .darkeningb{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.darkeningb .text,
 .darkening .text{
   padding-left: 1vw;
   padding-right: 1vw;
@@ -748,6 +764,16 @@ img.one{
   height: inherit;
   background-color: black;
   opacity: 0.25;
+  z-index: 1;
+}
+
+.tab.active .darkeningb{
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 0.8;
   z-index: 1;
 }
 

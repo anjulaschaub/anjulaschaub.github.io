@@ -1,5 +1,18 @@
 function playPause() {                                                      /*FOR FILE ONE*/
-
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[0];
 
     if (myVideo.paused)
@@ -31,7 +44,20 @@ function makeNormal() {
 
 
 function playPauseb() {                                                      /*FOR FILE TWO*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[1];
 
     if (myVideo.paused)
@@ -69,7 +95,20 @@ function makeNormal() {
 
 
 function playPausec() {                                                      /*FOR FILE THREE*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[2];
 
     if (myVideo.paused)
@@ -103,7 +142,20 @@ function makeNormal() {
 
 
 function playPaused() {                                                      /*FOR FILE FOUR*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[3];
 
     if (myVideo.paused)
@@ -134,7 +186,20 @@ function makeNormal() {
 
 
 function playPausee() {                                                      /*FOR FILE FIVE*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[4];
 
     if (myVideo.paused)
@@ -165,7 +230,20 @@ function makeNormal() {
 
 
 function playPausef() {                                                      /*FOR FILE SIX*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[5];
 
     if (myVideo.paused)
@@ -197,7 +275,20 @@ function makeNormal() {
 
 
 function playPauseg() {                                                      /*FOR FILE SEVEN*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[7];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[6];
 
     if (myVideo.paused)
@@ -229,7 +320,20 @@ function makeNormal() {
 
 
 function playPauseh() {                                                      /*FOR FILE EIGHT*/
-
+    var myVideo = document.getElementsByTagName('audio')[0];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[1];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[2];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[3];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[4];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[5];
+        myVideo.pause();
+    var myVideo = document.getElementsByTagName('audio')[6];
+        myVideo.pause();
     var myVideo = document.getElementsByTagName('audio')[7];
 
     if (myVideo.paused)

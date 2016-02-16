@@ -79,12 +79,10 @@ hr{
 }
 
 
-
-
 /*——————————————————————————————————————————————————————FONTS*/
 
 .row-1 h1{
-  font-family: "Merriweather", "Arial", sans-serif;;
+  font-family: "Merriweather", "Arial", sans-serif;
 }
 
 .leben,
@@ -174,6 +172,11 @@ td{
   height: 30vw;
 }
 
+
+.row-4 .col-1{
+  display: flex;
+  align-items: flex-start;
+}
 
 /*——————————————————————————————————————————————————————COLUMNS*/
 

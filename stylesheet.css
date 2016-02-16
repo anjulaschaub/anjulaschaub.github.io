@@ -84,7 +84,7 @@ hr{
 /*——————————————————————————————————————————————————————FONTS*/
 
 .row-1 h1{
-  font-family: "Merriweather", "arial";
+  font-family: "Merriweather", "Arial", sans-serif;;
 }
 
 .leben,
@@ -104,7 +104,7 @@ hr{
 .buttonindex p,
 .button,
 td{
-  font-family: "museo-sans";
+  font-family: "museo-sans", "Optima", serif;
 }
 
 

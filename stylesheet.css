@@ -430,6 +430,30 @@ color: #6E6E6E;
     display: block;
   }
 
+  .col-1.setD{
+    display: none;
+  }
+
+  .col-1.setD.active{
+    display: block;
+  }
+
+  .col-1.setE{
+    display: none;
+  }
+
+  .col-1.setE.active{
+    display: block;
+  }
+
+  .col-1.setF{
+    display: none;
+  }
+
+  .col-1.setF.active{
+    display: block;
+  }
+
   /*the left frame————————*/
 
   .leftframe{
@@ -701,7 +725,7 @@ img.one{
   width: inherit;
   height: inherit;
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.25;
   z-index: 1;
 }
 
@@ -712,7 +736,7 @@ img.one{
 }
 
 .text p{
-  color: #A4A4A4;
+  color: white;
   font-size: 0.7em;
   text-align: left;
 }
@@ -723,7 +747,7 @@ img.one{
   width: inherit;
   height: inherit;
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.25;
   z-index: 1;
 }
 

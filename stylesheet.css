@@ -386,13 +386,13 @@ color: #6E6E6E;
 .leben{
   font-size: 0.8em;
   text-align: left;
-  color: lightgrey;
+  color: #BDBDBD;
   font-weight: 100;
   line-height: 1.5em;
 }
 
 .leben a{
-  color: lightgrey;
+  color: #BDBDBD;
   text-decoration: underline;
   font-kerning: 4em;
   font-style: italic;
@@ -655,11 +655,12 @@ img.one{
 .wrap2 .text p,
 .wrap3 .text p{
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.5em;
   text-align: left;
   line-height: 1.5em;
 }
+
 
 .wrap1 .text p span,
 .wrap2 .text p span,
